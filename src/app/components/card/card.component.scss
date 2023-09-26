@@ -1,0 +1,19 @@
+.card {
+  position: relative;
+  width: 390px;
+  height: 240px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  &__img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

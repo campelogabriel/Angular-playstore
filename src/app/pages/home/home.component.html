@@ -1,0 +1,13 @@
+<div class="home__container">
+  <app-card
+    *ngFor="let n of GamesPage"
+    gameCover="{{ n.background_image }}"
+    gameGenre="{{ n.genres[0].name }}"
+    gamePrice="R$ 199,90"
+    gameType="XPTO | PS4 | PS5"
+    gameName="{{ n.name }}"
+    gameRating="{{ n.rating }}"
+  ></app-card>
+
+  <button *ngIf="GamesPage" (click)="getNewGames()">More Games</button>
+</div>

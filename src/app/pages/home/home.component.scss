@@ -1,0 +1,27 @@
+.home__container {
+  position: relative;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: baseline;
+  row-gap: 3.2rem;
+  margin: 4rem auto;
+  padding-top: 5rem;
+  color: white;
+}
+
+button {
+  grid-column: 1/-1;
+  background-color: cadetblue;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+button:hover {
+  cursor: pointer;
+}

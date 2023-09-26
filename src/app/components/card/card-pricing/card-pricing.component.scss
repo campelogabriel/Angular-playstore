@@ -1,0 +1,65 @@
+.card__pricing {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: Calibri;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.2rem;
+
+  &--title {
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+      font-size: 1.4rem;
+      letter-spacing: 0.2px;
+    }
+
+    p {
+      display: flex;
+      gap: 1.2rem;
+      font-size: 1.4rem;
+      align-self: flex-end;
+    }
+
+    span {
+      font-weight: bold;
+      color: cornflowerblue;
+    }
+  }
+
+  &--value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .console {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+
+    span {
+      font-weight: bold;
+      color: #00ffff;
+    }
+  }
+}
+
+.money {
+  background-color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  padding: 0.6rem;
+
+  &__price {
+  }
+}

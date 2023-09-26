@@ -1,0 +1,57 @@
+.menu-bar {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.8rem 1.6rem;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+
+  &__logo {
+    flex: 1;
+
+    img {
+      max-width: 14rem;
+    }
+  }
+
+  &__item {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    ul {
+      display: flex;
+      gap: 2.4rem;
+      margin-left: 50px;
+      font-size: 1.8rem;
+      font-weight: bold;
+
+      li {
+        list-style: none;
+
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: #aaa;
+      }
+      a:hover,
+      a:active {
+        color: #2b2bc9;
+      }
+    }
+  }
+}
