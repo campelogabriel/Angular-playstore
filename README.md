@@ -1,27 +1,14 @@
-# Store
+# PT(BR)
+### Dio Projeto - Clone Playstore com Angular
+Repositório do projeto Dio Santander "Recriando a pagina PlayStore".
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+* Foi utilizado a API [RAWG Video Games Database](https://api.rawg.io/docs) para o consumo de dados no frontend.
+* Tambem houve alterações em relação ao projeto feito pelo professor como a label de generos, nome e rating do jogo que se tornaram dinamicas.
 
-## Development server
+# ENG(US)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Dio Project - Clone Playstore with Angular
+Dio Santander project repository "Recreating the PlayStore page".
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* The [RAWG Video Games Database](https://api.rawg.io/docs) API was used to consume data on the frontend.
+* There were also changes in relation to the project made by the teacher such as the genre label, name and rating of the game.
